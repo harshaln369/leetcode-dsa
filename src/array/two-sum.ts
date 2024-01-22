@@ -1,4 +1,5 @@
 type Matches = { [key: string]: number };
+
 function twoSum(nums: number[], target: number): number[] | undefined {
   const matches: Matches = {};
 
